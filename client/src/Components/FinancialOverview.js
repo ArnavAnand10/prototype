@@ -43,7 +43,7 @@ export const FinancialOverview = () => {
     return (
         <div className=" financial-overview" >
             <div className="bg-white m-8 flex flex-col gap-2 px-8 py-8 rounded-lg form-container" >
-                <h1 className='text-3xl font-medium mb-4' >Income</h1>
+                <h1 className='text-2xl md:text-3xl font-medium mb-4' >Income</h1>
                 <TextField id="outlined-basic" onChange={(e) => {
                     onIncomeChange(e);
                 }} name="title" label="Title" variant="outlined" />
@@ -60,7 +60,7 @@ export const FinancialOverview = () => {
             </div>
 
             <div className="bg-white m-8 flex flex-col gap-2  px-6  py-8  rounded-lg form-container" >
-                <h1 className='text-3xl font-medium mb-4' >Expenses</h1>
+                <h1 className='text-2xl md:text-3xl font-medium mb-4' >Expenses</h1>
                 <TextField id="outlined-basic" onChange={(e) => {
                     onExpenseChange(e)
                 }} label="Title" name="title" variant="outlined" />
@@ -76,7 +76,7 @@ export const FinancialOverview = () => {
             </div>
 
             <div className="bg-white m-8 flex flex-col gap-2  px-6  py-8  rounded-lg form-container" >
-                <h1 className='text-3xl font-medium mb-4' >Liabilities</h1>
+                <h1 className='text-2xl md:text-3xl font-medium mb-4' >Liabilities</h1>
                 <TextField id="outlined-basic" onChange={(e) => {
                     onLiabilityChange(e)
                 }} label="Title" name="title" variant="outlined" />

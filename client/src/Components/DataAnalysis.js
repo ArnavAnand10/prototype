@@ -40,7 +40,7 @@ export const DataAnalysis = ()=>{
           <h1 className=" text-md  mt-2 md:text-xl" >&#8377;9874</h1>
           </div>
           
-s
+
           <div className=" bg-yellow-400  px-8 py-4 md:py-8 md:px-12 text-center rounded-lg analysis-item">
         
         <WalletIcon sx={{
